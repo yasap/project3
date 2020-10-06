@@ -1,88 +1,151 @@
-body{
+body {
     background-color: white;
     text-align: center;
-    background-color:#E7E9EA;
-}
-img{
-    background-color: white;
-}
-.section1{
-    background: #F0F0F0;
-    margin: 0 auto;
-}
-.location{
-    background-color: #D0CFD1 ;
-    text-align: center;
-    margin: 0 auto;
-}
-.location i{
-    padding: 1em;
-    
-}
-h1{
-    
-    font-weight: 600;
-   margin-bottom: 3em;
-   font-weight: 700;
-}
-h2{
-    text-align: justify;
-}
-p{
-    padding-bottom: 3em;
-}
-.book{
-    background-color:#E7E9EA;
-    padding: 5em;
-}
-p{
-color:  grey;
-}
-p.lighter{
-    color:  -20%;
-}
-.button1{
-    background-color: rgba(165, 92, 233, 0.925);
-    border-radius: 2em;
-    padding-left: 2em;
-    padding-right: 2em;
-    padding-bottom: 2em;
-    padding-top: 2em ;
-    color: white;
+    padding: 0;
+    margin: 0;
+    /* width: 100%; */
+  }
+  .logo-large {
     width: 60%;
+    padding: 1em;
+  }
+  .section1 {
+    background: #f0f0f0;
+    margin: 0 auto;
+    padding: 2em;
+  }
+  .circle_number {
+    background-color: rgb(204, 82, 204);
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    padding: 0.5em;
+    color: white;
+    margin-left: -2.2em;
+    margin-right: 2em;
+    font-weight: bold;
+  }
+  .location {
+    background-color: #d0cfd1;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+    border-top: 3px solid #b0acb4;
+  }
+  i {
+    padding-right: 0.5em;
+    justify-content: end;
+  }
+  h1.book_menu {
+    font-weight: 600;
+    margin-top: 0;
+    font-weight: 700;
+  }
+  h2 {
+    text-align: justify;
+  }
+  p {
+    padding-bottom: 3em;
+  }
+  .book {
+    background-color: #e7e9ea;
+    padding: 5em;
+  }
+  p {
+    color: grey;
+  }
+  p.lighter {
+    color: -20%;
+  }
+  .button1 {
+    background-image: linear-gradient(
+      to bottom right,
+      rgb(240, 122, 240),
+      rgb(110, 4, 110)
+    );
+    border: 0;
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 1em;
+    color: white;
+    /* width: 60%; */
     text-align: center;
     margin-bottom: 5em;
     font-size: 15px;
-}
-.section2{
-background-color: white;
-}
-.button2{
-background-color: whitesmoke;
-border-radius: 3em;
-padding: 3em;
-margin: 2em;
-width: 90%;
-}
-.button3{
-    border-radius: 5%;
+  }
+  .section2 {
     background-color: white;
-    text-align: justify;
-    margin-bottom: 5em;
+    padding: 2em 0.5em;
+  }
+  .section3 {
+    background-color: rgb(235, 230, 230);
+    padding: 2em 1em;
+  }
+  .button2 i {
+    color: black;
+  }
+  .button2 {
+    background-color: whitesmoke;
+    border-radius: 1em;
+    padding: 1em;
+    margin-top: 2em;
+    width: calc(100% - 4em);
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .resto1 {
+  background-image:  url("../image/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+  background-size: cover;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column-reverse;
+  padding-bottom: 0;
+  width: 400px;
+  height: 400px;
+  }
+ .resto1 .r1name{
+   background-color: white;
+   display: flex;
+   flex-direction: row;
+   border-bottom-left-radius:15px ;
+   border-bottom-right-radius: 15px;
+   justify-content: space-between;
+   align-items: center;
+   padding-left: 10px;
+   height: 110px;
+   padding-top: 25px;
+ }
+.same{
+  background-size: cover;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column-reverse;
+  padding-bottom: 0;
+  width: 400px;
+  height: 400px;
 }
-img{
-    width: 100%;
+  .material_icons{
+    position: top
+    ;
+  }
+  .favorite_border {
+    text-align: right;
 }
-.favorite_border{
-    text-align: left;
-}
-footer{
+  footer {
     background: rgb(66, 65, 65);
     color: white;
-}
-.w-title{
+  }
+  footer svg {
+    fill: white;
+  }
+  .w-title {
     color: white;
     padding: 5%;
-}
-
-
+  }
