@@ -1,4 +1,5 @@
 body {
+<<<<<<< HEAD
     background-color: white;
     text-align: center;
     padding: 0;
@@ -169,3 +170,173 @@ body {
   
     color: black;
   }
+=======
+  background-color: white;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  /* width: 100%; */
+}
+.logo-large {
+  width: 60%;
+  padding: 1em;
+}
+.section1 {
+  background: #f0f0f0;
+  margin: 0 auto;
+  padding: 2em;
+  font-weight: bold;
+}
+.circled_number {
+  background-color: rgb(161, 80, 226);
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  padding: 0.5em;
+  color: white;
+  margin-left: -2.2em;
+  margin-right: 2em;
+  font-weight: bold;
+}
+.cards {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* add shadow to card */
+  background-image: url("../image/jay-wennington-N_Y88TWmGwA-unsplash.jpg"); /* adds background image */
+
+  background-size: cover; /* covers the image to the whole container */
+  background-repeat: no-repeat;
+  width: calc(100% - 2em);
+  height: 300px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 0;
+  flex-direction: column-reverse;
+}
+.cards .card_content {
+  width: calc(100% - 2em);
+  background-color: white;
+  padding: 1em;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
+.new_label {
+  background-color: rgb(43, 214, 197);
+  color: rgb(7, 105, 100);
+  border-radius: 2px;
+  padding: 0.5em 1em;
+  width: 40px;
+  margin: 0.5em;
+}
+.location {
+  background-color: #d0cfd1;
+  text-align: center;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  padding: 1em;
+  border-top: 3px solid #b0acb4;
+}
+i {
+  padding-right: 0.5em;
+}
+.book_menu {
+  font-weight: 600;
+  margin-top: 0;
+  font-size: 1.5em;
+}
+h2 {
+  text-align: justify;
+}
+p {
+  padding-bottom: 3em;
+}
+.book {
+  background-color: #e7e9ea;
+  padding: 5em;
+}
+p {
+  color: grey;
+}
+p.lighter {
+  color: -20%;
+}
+.button1 {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(240, 122, 240),
+    rgb(110, 4, 110)
+  );
+  font-weight: bold;
+  border-radius: 25px;
+  padding: 1em;
+  color: white;
+  border-width: 0;
+  text-align: center;
+  margin-bottom: 5em;
+  font-size: 15px;
+}
+.section2 {
+  background-color: white;
+  padding: 2em 0.5em;
+}
+.section3 {
+  background-color: rgb(235, 230, 230);
+  padding: 2em 1em;
+}
+.section3 .cards {
+  margin: 0 auto;
+}
+.button2 i {
+  color: grey;
+}
+.button2 {
+  background-color: whitesmoke;
+  border-radius: 1em;
+  padding: 1em;
+  margin-top: 2em;
+  width: calc(100% - 4em);
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.button2 .active i {
+  color: rgb(71, 5, 124);
+}
+.button2 .active {
+  background-color: rgb(233, 16, 218);
+}
+.button3 {
+  border-radius: 5%;
+  background-color: white;
+  text-align: justify;
+  margin-bottom: 5em;
+}
+.button3 head {
+  width: 100%;
+  height: 220px;
+}
+.favorite_border {
+  text-align: left;
+}
+footer {
+  background: rgb(66, 65, 65);
+  color: white;
+}
+footer svg {
+  fill: white;
+}
+.w-title {
+  color: white;
+  padding: 5%;
+}
+>>>>>>> b0665082c3ea853130ddfd933d9ba46c0f23a553
