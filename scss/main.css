@@ -102,15 +102,17 @@ body {
   }
   .resto1 {
   background-image:  url("../image/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
-  background-size: cover;
-  border-radius: 15px;
-  display: flex;
-  flex-direction: column-reverse;
-  padding-bottom: 0;
-  width: 400px;
-  height: 400px;
+}
+  .resto2{
+    background-image: url("../image/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
   }
- .resto1 .r1name{
+  .resto3{
+    background-image: url("../image/stil-u2Lp8tXIcjw-unsplash.jpg");
+  }
+  .resto4{
+    background-image: url("../image/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
+  }
+ .r1name{
    background-color: white;
    display: flex;
    flex-direction: row;
@@ -119,24 +121,38 @@ body {
    justify-content: space-between;
    align-items: center;
    padding-left: 10px;
-   height: 110px;
+   height: 100px;
    padding-top: 25px;
+   margin-bottom: 30px;
  }
 .same{
-  background-size: cover;
+  background-size: 100% 80%;
   border-radius: 15px;
   display: flex;
   flex-direction: column-reverse;
   padding-bottom: 0;
-  width: 400px;
-  height: 400px;
+  width: 100%;
+  height: 300px;
+  background-repeat: no-repeat;
 }
-  .material_icons{
+.new_label{
+  background-color: rgb(128, 233, 175);
+  color: rgb(40, 161, 40);
+  border-radius: 2px;
+  padding: .5em;
+  width: 30px;
+  margin-bottom: 350px;
+  text-align: right;
+  margin-left: 20px;
+
+  }
+ .material_icons{
     position: top
     ;
   }
   .favorite_border {
     text-align: right;
+    margin-left: 150px;
 }
   footer {
     background: rgb(66, 65, 65);
@@ -148,4 +164,8 @@ body {
   .w-title {
     color: white;
     padding: 5%;
+  }
+  #hello{
+  
+    color: black;
   }
