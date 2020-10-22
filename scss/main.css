@@ -102,55 +102,64 @@ body {
   }
   .resto1 {
   background-image:  url("../image/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+  margin-bottom: 10px;
 }
   .resto2{
     background-image: url("../image/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
+    margin-bottom: 10px;
   }
   .resto3{
     background-image: url("../image/stil-u2Lp8tXIcjw-unsplash.jpg");
+    margin-bottom: 10px;
   }
   .resto4{
     background-image: url("../image/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
+    margin-bottom: 10px;
   }
  .r1name{
-   background-color: white;
-   width: calc(100% - 2em);
-   padding: 1em;
+background-color: white;
    display: flex;
    flex-direction: row;
    border-bottom-left-radius:15px ;
    border-bottom-right-radius: 15px;
    justify-content: space-between;
+   align-items: center;
+   width: calc(100% - 2em);
+   padding: 1em;
+   height: 100px;
    text-align: left;
  }
- .r1name .i:hover{
-   color: indigo;
- }
 .same{
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: calc(100% - 2em);
+  background-size: 100% 80%;
   border-radius: 15px;
   display: flex;
-  align-items: flex-end;
   flex-direction: column-reverse;
-  padding-bottom: 0;
+  justify-content: space-between;
+  align-items: flex-end;
   height: 300px;
+  padding: 2px;
+  width: calc(100% - 4px);
   background-repeat: no-repeat;
 }
 .new_label{
   background-color: rgb(128, 233, 175);
   color: rgb(40, 161, 40);
   border-radius: 2px;
-  padding: .5em 1em;
+  padding: .5em;
   width: 30px;
   margin-bottom: 350px;
   text-align: right;
   margin-left: 20px;
-}
+  padding-right: .75em;
+
+  }
   footer {
     background: rgb(66, 65, 65);
     color: white;
+    justify-content: start;
+    padding-top: 3em;
+    text-align: start;
+    padding-left: 2em;
   }
   footer svg {
     fill: white;
