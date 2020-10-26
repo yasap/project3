@@ -28,8 +28,7 @@ body {
 }
 .cards {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* add shadow to card */
-  background-image: url("../image/jay-wennington-N_Y88TWmGwA-unsplash.jpg"); /* adds background image */
-
+  /* adds background image */
   background-size: cover; /* covers the image to the whole container */
   background-repeat: no-repeat;
   width: calc(100% - 2em);
@@ -52,6 +51,9 @@ body {
   justify-content: space-between;
   align-items: center;
   text-align: left;
+}
+.card_content i:hover {
+  color: purple;
 }
 .new_label {
   background-color: rgb(43, 214, 197);
@@ -120,7 +122,7 @@ p.lighter {
   padding: 2em 1em;
 }
 .section3 .cards {
-  margin: 0 auto;
+  margin: 2em auto;
 }
 .button2 i {
   color: grey;
