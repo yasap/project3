@@ -199,8 +199,15 @@ background-color: white;
   font-size: xx-large;
 }
 .order{
-  background-image: linear-gradient(
-    to bottom right,
-    rgb(240, 122, 240),
-    rgb(110, 4, 110);
+  background-image:linear-gradient(to right, rgb(201, 40, 201), rgba(235, 53, 219, 0.308));
+  text-align: center;
+  padding: 15px 45px;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  text-align: center;
+  margin-bottom: 40px ;
+  margin-top: 40px;
+  font-weight: 900;
+
 }
