@@ -48,9 +48,6 @@ body {
   h2 {
     text-align: justify;
   }
-  p {
-    padding-bottom: 3em;
-  }
   .book {
     background-color: #e7e9ea;
     padding: 5em;
@@ -151,8 +148,7 @@ background-color: white;
   text-align: right;
   margin-left: 20px;
   padding-right: .75em;
-
-  }
+}
   footer {
     background: rgb(66, 65, 65);
     color: white;
@@ -166,9 +162,45 @@ background-color: white;
   }
   .w-title {
     color: white;
-    padding: 5%;
+    padding: 5%; 
   }
-  #hello{
-  
-    color: black;
-  }
+
+
+  .background-image{
+    background-image: url("../image/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
+   }
+   .part1{
+    background-color: rgb(241, 239, 239);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    text-align: start;
+    padding-left: 25px;
+    padding-top: 15px;
+  font-weight: bolder;
+   }
+   .u{
+     text-decoration: underline;
+     color:rgb(42, 224, 194);
+    }
+   .entre{
+     background-color: rgb(255, 254, 254);
+     border-color: black;
+     border-radius: 15px;
+     padding-left: 20px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     margin-bottom: 15px;
+     padding-bottom: auto;
+     padding-top: 10px;
+}
+.h5{
+  font-weight: 400;
+  font-size: xx-large;
+}
+.order{
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(240, 122, 240),
+    rgb(110, 4, 110);
+}
