@@ -56,7 +56,7 @@ body {
     color: grey;
   }
   p.lighter {
-    color: -20%;
+    color: -50%;
   }
   .button1 {
     background-image: linear-gradient(
@@ -84,6 +84,9 @@ body {
   }
   .button2 i {
     color: black;
+  }
+  .button2:hover{
+    background-color: rgb(205, 186, 214);
   }
   .button2 {
     background-color: whitesmoke;
@@ -144,11 +147,14 @@ background-color: white;
   border-radius: 2px;
   padding: .5em;
   width: 30px;
-  margin-bottom: 350px;
+  margin-bottom: 380px;
   text-align: right;
-  margin-left: 20px;
+  margin-left: 30px;
   padding-right: .75em;
 }
+ .material-icons:hover {
+  color: rgb(201, 60, 201);
+ }
   footer {
     background: rgb(66, 65, 65);
     color: white;
@@ -165,49 +171,64 @@ background-color: white;
     padding: 5%; 
   }
 
-
   .background-image{
+    display: block;
+    height: 300px;
+    background-size: cover;
     background-image: url("../image/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
    }
    .part1{
     background-color: rgb(241, 239, 239);
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    border-top-left-radius: 55px;
+    border-top-right-radius: 55px;
     text-align: start;
     padding-left: 25px;
     padding-top: 15px;
   font-weight: bolder;
+  margin-top: -4em;
+  padding-right: 25px;
    }
-   .u{
-     text-decoration: underline;
-     color:rgb(42, 224, 194);
+   .part1 h1{
+     font-style: italic;
+     font-weight: bolder;
+   }
+   .restaurant_title{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+   }
+   .underline{
+    padding-bottom: 5px;
+    border-bottom: 3px solid rgb(46, 206, 192);
     }
    .entre{
      background-color: rgb(255, 254, 254);
      border-color: black;
      border-radius: 15px;
-     padding-left: 20px;
      display: flex;
      flex-direction: row;
      justify-content: space-between;
+     align-items: flex-end;
      margin-bottom: 15px;
-     padding-bottom: auto;
-     padding-top: 10px;
+    padding: 15px;
 }
 .h5{
   font-weight: 400;
   font-size: xx-large;
 }
 .order{
+  text-align: center;
+
+
+}
+.order button{
   background-image:linear-gradient(to right, rgb(201, 40, 201), rgba(235, 53, 219, 0.308));
   text-align: center;
   padding: 15px 45px;
   color: white;
   border-radius: 20px;
   border: none;
-  text-align: center;
-  margin-bottom: 40px ;
-  margin-top: 40px;
   font-weight: 900;
-
+  margin: 40px auto;
 }
