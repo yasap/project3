@@ -171,7 +171,7 @@ background-color: white;
     padding: 5%; 
   }
 
-  .background-image{
+  .background-image1 {
     display: block;
     height: 300px;
     background-size: cover;
@@ -202,7 +202,7 @@ background-color: white;
     padding-bottom: 5px;
     border-bottom: 3px solid rgb(46, 206, 192);
     }
-   .entre{
+   .bastille{
      background-color: rgb(255, 254, 254);
      border-color: black;
      border-radius: 15px;
@@ -232,3 +232,23 @@ background-color: white;
   font-weight: 900;
   margin: 40px auto;
 }
+.titolo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 25px
+}
+   
+.background-image2 {
+  display: block;
+  height: 300px;
+  background-size: cover;
+  background-image: url("../image/stil-u2Lp8tXIcjw-unsplash.jpg");
+ }
+ .background-image3{
+  display: block;
+  height: 300px;
+  background-size: cover;
+  background-image: url("../image/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+ }
