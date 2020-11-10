@@ -155,9 +155,14 @@ background-color: white;
   padding-right: .75em;
   
 }
- .material-icons:hover {
+.material-icons{
+  cursor: pointer;
+}
+.material-icons:hover {
+  text-shadow: none;
   color: rgb(201, 60, 201);
- }
+  
+}
   footer {
     background: rgb(66, 65, 65);
     color: white;
@@ -215,11 +220,62 @@ background-color: white;
      align-items: flex-end;
      margin-bottom: 15px;
     padding: 15px;
+    /* animation: slideme 1s ease-in; */
+
 }
-.bastille:hover{
-  cursor: pointer;
-  transition: all 5s linear;
-  transform: scale()
+@keyframes slideme {
+  0%{
+transform: skewx(180deg) translateY(-500px);
+  }
+  50%{
+    transform: skewx(180deg) translateY(-500px);
+  }
+  100% {
+transform: skew(0deg);
+  }
+
+}
+@keyframes rightleft {
+  0%{
+    transform: skewY(80deg) translateY(-500px);
+      }
+      100% {
+    transform: skew(0deg);
+      } 
+}
+
+.zero:hover{
+  animation: rightleft 1s ease-in;
+}
+.zero{
+  animation: slideme .75s ease-in;
+}
+.one{
+  animation: slideme 1s ease-in;
+}
+.two{
+  animation: slideme 1.5s ease-in;
+}
+.three{
+  animation: slideme 1.75s ease-in;
+}
+.four{
+  animation: slideme 2s ease-in;
+}
+.five{
+  animation: slideme 2.5s ease-in;
+}
+.six{
+  animation: slideme 2.75s ease-in;
+}
+.seven{
+  animation: slideme 3s ease-in;
+}
+.eight{
+  animation: slideme 3.5s ease-in;
+}
+.nine{
+  animation: slideme 3.75s ease-in;
 }
 .h5{
   font-weight: 400;
@@ -227,11 +283,9 @@ background-color: white;
 }
 .order{
   text-align: center;
-
-
 }
 .order button{
-  background-image:linear-gradient(to right, rgb(201, 40, 201), rgba(235, 53, 219, 0.308));
+  background-image:linear-gradient(to bottom , rgb(214, 130, 214), purple);
   text-align: center;
   padding: 15px 45px;
   color: white;
