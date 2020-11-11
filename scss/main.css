@@ -121,7 +121,7 @@ p {
   color: grey;
 }
 p.lighter {
-  color: -20%;
+  color: rgb(194, 192, 192);
 }
 .button1 {
   background-image: linear-gradient(
@@ -166,11 +166,11 @@ p.lighter {
   align-items: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.button2 .active i {
-  color: rgb(71, 5, 124);
+.button2:hover i {
+  color: rgb(161, 80, 226);
 }
-.button2 .active {
-  background-color: rgb(233, 16, 218);
+.button2:hover {
+  background-color: rgb(235, 220, 233);
 }
 .button3 {
   border-radius: 5%;
