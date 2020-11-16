@@ -173,9 +173,8 @@ background-color: white;
   text-shadow: none;
   
 }
-.fa
   footer {
-    background: rgb(66, 65, 65);
+    background: rgb(65, 64, 64);
     color: white;
     justify-content: start;
     padding-top: 3em;
@@ -234,27 +233,85 @@ background-color: white;
     /* animation: slideme 1s ease-in; */
 
 }
-@keyframes slideme {
-  0%{
-transform: skewx(180deg) translateY(-500px);
+.bastille .check{
+  background-color: rgb(17, 233, 215);
+  display: none;
+  text-align: center;
+  justify-content: center;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  color: white;
+  width: 20%;
+  height: calc(100% + 2em);
+  cursor: pointer;
+}
+.bastille :hover .check{
+  animation: stretchleft 0.5 linear;
+  display: flex;
+}
+.bastille :hover .check i{
+  animation: shrinkright 0.5 linear;
+}
+
+.bastille:not(:hover) .check{
+animation: shrinkright 0.5 linear;
+}
+.bastille .title{
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+/* width: 70%; */
+}
+.bastille .heading{
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: black;
+}
+.bastille .subtitle{
+  color: gray;
+}
+.bastille .price{
+  font-weight: 700;
+  text-align: right;
+  align-self: flex-end;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
   }
-  50%{
-    transform: skewx(180deg) translateY(-500px);
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes stretchLeft {
+  0% {
+    width: 0;
   }
   100% {
-transform: skew(0deg);
+    width: 20%;
   }
-
-}
-@keyframes rightleft {
-  0%{
-    transform: skewY(80deg) translateY(-500px);
-      }
-      100% {
-    transform: skew(0deg);
-      } 
 }
 
+@keyframes shrinkRight {
+  0% {
+    width: 20%;
+  }
+  100% {
+    width: 0;
+    display: none;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    margin-top: 3em;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 1em;
+  }
+}
 .zero:hover{
   animation: rightleft 1s ease-in;
 }
