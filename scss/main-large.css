@@ -1,4 +1,4 @@
-@media only screen and (max-width: 677px) {
+@media only screen and (min-width: 1200px) {
   body {
     background-color: white;
     text-align: center;
@@ -11,12 +11,12 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     padding: 1em;
   }
   header .logo-large {
-    width: 60%;
-    /* padding: 1em; */
+    width: 240px;
+    padding: 1em;
   }
   .section1 {
     background: #f0f0f0;
@@ -40,7 +40,7 @@
     /* adds background image */
     background-size: cover; /* covers the image to the whole container */
     background-repeat: no-repeat;
-    width: calc(100% - 2em);
+    width: 20%;
     height: 300px;
     border-radius: 15px;
     display: flex;
@@ -60,6 +60,12 @@
     justify-content: space-between;
     align-items: center;
     text-align: left;
+  }
+  .card_content a:link,
+  .card_content a:visited,
+  .card_content a:hover {
+    color: black;
+    text-decoration: none;
   }
   .fav,
   .fav-clear {
@@ -149,8 +155,12 @@
     background-color: rgb(235, 230, 230);
     padding: 2em 1em;
   }
+  .section3 .card-container {
+    display: flex;
+    flex-direction: row;
+  }
   .section3 .cards {
-    margin: 2em auto;
+    margin: 1em auto;
     cursor: pointer;
   }
 
@@ -169,13 +179,13 @@
     border-radius: 1em;
     padding: 1em;
     margin: 2em auto;
-    width: calc(100% - 2em);
+    width: calc(60% - 2em);
     display: flex;
     flex-direction: row;
     justify-content: start;
     align-items: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    text-align: lefts;
+    text-align: left;
   }
   .button2:hover i {
     color: rgb(161, 80, 226);

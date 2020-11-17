@@ -1,4 +1,4 @@
-@media only screen and (max-width: 677px) {
+@media only screen and (min-width: 678px) and (max-width: 1199px) {
   body {
     background-color: white;
     text-align: center;
@@ -40,7 +40,7 @@
     /* adds background image */
     background-size: cover; /* covers the image to the whole container */
     background-repeat: no-repeat;
-    width: calc(100% - 2em);
+    width: calc(45% - 1em);
     height: 300px;
     border-radius: 15px;
     display: flex;
@@ -48,6 +48,12 @@
     align-items: flex-end;
     padding-bottom: 0;
     flex-direction: column-reverse;
+  }
+  .section3 .card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1190px;
   }
   .card_content {
     width: calc(100% - 2em);
