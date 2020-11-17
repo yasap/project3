@@ -229,8 +229,7 @@ background-color: white;
      justify-content: space-between;
      align-items: flex-end;
      margin-bottom: 15px;
-    padding: 15px;
-    /* animation: slideme 1s ease-in; */
+     animation: fadeIn 1s linear;
 
 }
 .bastille .check{
@@ -245,16 +244,18 @@ background-color: white;
   height: calc(100% + 2em);
   cursor: pointer;
 }
-.bastille :hover .check{
-  animation: stretchleft 0.5 linear;
+.bastille:hover .check{
+  animation: stretchLeft 0.5s linear;
   display: flex;
+  justify-content: center;
+  height: 150px ;
+  align-items: center;
 }
-.bastille :hover .check i{
-  animation: shrinkright 0.5 linear;
+.bastille:hover .check i{
+  animation: shrinkRight 0.5s linear;
 }
-
 .bastille:not(:hover) .check{
-animation: shrinkright 0.5 linear;
+animation: shrinkRight 0.5s linear;
 }
 .bastille .title{
   text-align: left;
@@ -262,9 +263,9 @@ animation: shrinkright 0.5 linear;
   flex-direction: column;
   align-items: flex-start;
 /* width: 70%; */
+margin: 10px;
 }
 .bastille .heading{
-  font-weight: bold;
   font-size: 1.1rem;
   color: black;
 }
@@ -275,6 +276,8 @@ animation: shrinkright 0.5 linear;
   font-weight: 700;
   text-align: right;
   align-self: flex-end;
+  padding-bottom: 10px;
+  padding-right: 10px;
 }
 @keyframes spin {
   from {
@@ -314,36 +317,6 @@ animation: shrinkright 0.5 linear;
 }
 .zero:hover{
   animation: rightleft 1s ease-in;
-}
-.zero{
-  animation: slideme .75s ease-in;
-}
-.one{
-  animation: slideme 1s ease-in;
-}
-.two{
-  animation: slideme 1.5s ease-in;
-}
-.three{
-  animation: slideme 1.75s ease-in;
-}
-.four{
-  animation: slideme 2s ease-in;
-}
-.five{
-  animation: slideme 2.5s ease-in;
-}
-.six{
-  animation: slideme 2.75s ease-in;
-}
-.seven{
-  animation: slideme 3s ease-in;
-}
-.eight{
-  animation: slideme 3.5s ease-in;
-}
-.nine{
-  animation: slideme 3.75s ease-in;
 }
 .h5{
   font-weight: 400;
