@@ -1,0 +1,359 @@
+@media only screen and (min-width: 1200px) {
+body {
+    background-color: white;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    
+  }
+  .logo-large {
+    width: 60%;
+    padding: 1em;
+  }
+  .section1 {
+    background: #f0f0f0;
+    margin: 0 auto;
+    padding: 2em;
+  }
+  .circle_number {
+    background-color: rgb(204, 82, 204);
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    padding: 0.5em;
+    color: white;
+    margin-left: -2.2em;
+    margin-right: 2em;
+    font-weight: bold;
+  }
+  .location {
+    background-color: #d0cfd1;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+    border-top: 3px solid #b0acb4;
+  }
+  i {
+    padding-right: 0.5em;
+    justify-content: end;
+  }
+  h1.book_menu {
+    font-weight: 600;
+    margin-top: 0;
+    font-weight: 700;
+  }
+  h2 {
+    text-align: justify;
+  }
+  .book {
+    background-color: #e7e9ea;
+    padding: 5em;
+  }
+  p {
+    color: grey;
+  }
+  p.lighter {
+    color: -50%;
+  }
+  .button1 {
+    background-image: linear-gradient(
+      to bottom right,
+      rgb(240, 122, 240),
+      rgb(110, 4, 110)
+    );
+    border: 0;
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 1em;
+    color: white;
+    /* width: 60%; */
+    text-align: center;
+    margin-bottom: 5em;
+    font-size: 15px;
+  }
+  .section2 {
+    background-color: white;
+    padding: 2em 0.5em;
+  }
+  .section3 {
+    background-color: rgb(235, 230, 230);
+    padding: 2em 1em;
+  }
+  .button2 i {
+    color: black;
+  }
+  .button2:hover{
+    background-color: rgb(205, 186, 214);
+  }
+  .button2 {
+    background-color: whitesmoke;
+    border-radius: 1em;
+    padding: 1em;
+    margin-top: 2em;
+    width: calc(100% - 4em);
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .resto1 {
+  background-image:  url("../image/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+  margin-bottom: 10px;
+}
+  .resto2{
+    background-image: url("../image/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
+    margin-bottom: 10px;
+  }
+  .resto3{
+    background-image: url("../image/stil-u2Lp8tXIcjw-unsplash.jpg");
+    margin-bottom: 10px;
+  }
+  .resto4{
+    background-image: url("../image/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
+    margin-bottom: 10px;
+  }
+ .r1name{
+background-color: white;
+   display: flex;
+   flex-direction: row;
+   border-bottom-left-radius:15px ;
+   border-bottom-right-radius: 15px;
+   justify-content: space-between;
+   align-items: center;
+   width: 40%;
+   padding: 1em;
+   /* height: 100px; */
+   text-align: left;
+
+ }
+.same{
+  background-size: cover;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 300px;
+  /* padding: 2px; */
+  width: calc(100% - 4px);
+  background-repeat: no-repeat;
+  margin-top: 2em;
+}
+.new_label{
+  background-color: rgb(128, 233, 175);
+  color: rgb(40, 161, 40);
+  border-radius: 2px;
+  padding: .5em;
+  width: 30px;
+  margin-bottom: 30px;
+  text-align: right;
+  margin: 30px;
+  padding-right: .75em;
+  
+}
+.material-icons{
+  cursor: pointer;
+}
+.material-icons:hover {
+  text-shadow: none;
+  color: rgb(201, 60, 201);
+  
+}
+.favorite {
+  cursor: pointer;
+ text-shadow: -1px 0  black, 0 1px black, 1px 0 black, 0 -1px black;
+ color: white;
+}
+.favorite:hover{
+  color: rgb(177, 67, 177);
+  text-shadow: none;
+  
+}
+  footer {
+    background: rgb(65, 64, 64);
+    color: white;
+    justify-content: start;
+    padding-top: 3em;
+    text-align: start;
+    padding-left: 2em;
+  }
+  footer svg {
+    fill: white;
+  }
+  .w-title {
+    color: white;
+    padding: 5%; 
+  }
+
+  .background-image1 {
+    display: block;
+    height: 300px;
+    background-size: cover;
+    background-image: url("../image/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
+   }
+   .part1{
+    background-color: rgb(241, 239, 239);
+    border-top-left-radius: 55px;
+    border-top-right-radius: 55px;
+    text-align: start;
+    padding-left: 25px;
+    padding-top: 15px;
+  font-weight: bolder;
+  margin-top: -4em;
+  padding-right: 25px;
+   }
+   .part1 h1{
+     font-style: italic;
+     font-weight: bolder;
+   }
+   .restaurant_title{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+   }
+   .underline{
+    padding-bottom: 5px;
+    border-bottom: 3px solid rgb(46, 206, 192);
+    }
+   .bastille{
+     background-color: rgb(255, 254, 254);
+     border-color: black;
+     border-radius: 15px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: flex-end;
+     margin-bottom: 15px;
+     animation: fadeIn 1s linear;
+
+}
+.bastille .check{
+  background-color: rgb(17, 233, 215);
+  display: none;
+  text-align: center;
+  justify-content: center;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  color: white;
+  width: 20%;
+  height: calc(100% + 2em);
+  cursor: pointer;
+}
+.bastille:hover .check{
+  animation: stretchLeft 0.5s linear;
+  display: flex;
+  justify-content: center;
+  height: 150px ;
+  align-items: center;
+}
+.bastille:hover .check i{
+  animation: shrinkRight 0.5s linear;
+}
+.bastille:not(:hover) .check{
+animation: shrinkRight 0.5s linear;
+}
+.bastille .title{
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+/* width: 70%; */
+margin: 10px;
+}
+.bastille .heading{
+  font-size: 1.1rem;
+  color: black;
+}
+.bastille .subtitle{
+  color: gray;
+}
+.bastille .price{
+  font-weight: 700;
+  text-align: right;
+  align-self: flex-end;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes stretchLeft {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 20%;
+  }
+}
+
+@keyframes shrinkRight {
+  0% {
+    width: 20%;
+  }
+  100% {
+    width: 0;
+    display: none;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    margin-top: 3em;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 1em;
+  }
+}
+.zero:hover{
+  animation: rightleft 1s ease-in;
+}
+.h5{
+  font-weight: 400;
+  font-size: xx-large;
+}
+.order{
+  text-align: center;
+}
+.order button{
+  background-image:linear-gradient(to bottom , rgb(214, 130, 214), purple);
+  text-align: center;
+  padding: 15px 45px;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  font-weight: 900;
+  margin: 40px auto;
+}
+.titolo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 25px
+}
+   
+.background-image2 {
+  display: block;
+  height: 300px;
+  background-size: cover;
+  background-image: url("../image/stil-u2Lp8tXIcjw-unsplash.jpg");
+ }
+ .background-image3{
+  display: block;
+  height: 300px;
+  background-size: cover;
+  background-image: url("../image/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+ }
+}
