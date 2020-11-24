@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link href="scss/main.css" rel="stylesheet">
+      <link href="scss/large.css" rel="stylesheet">
+      <link href="scss/medium.css" rel="stylesheet">
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
       <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
@@ -11,17 +13,21 @@
       <title>oohmyfood</title>
 </head>
 <body id="hello">
+  <header>
     <div class="titolo">
     <div class="material-icons">keyboard_backspace </div>
     <img src="image/ohmyfood.png"/>
     </div>
-    <div class="background-image2"></div>
+  </header>
+  <section>
+<div class="background-image2"></div>
     <div class="part1">
-      <div class="restaurant_title">
+      <div class="restaurant_title">  
      <h1>The Enchanted Plate </h1>
      <i class="material-icons favorite">favorite</i>
      </div>
-     <h4><span class="underline">ENTR</span>EES</h4>
+              <h4><span class="underline">ENTR</span>EES</h4>
+    
 <div class="bastille ">
   <div class="title"><strong class="heading">Foie Gras Ravioli</strong>
     <p class="subtitle">with truffle cream</p>
@@ -33,70 +39,98 @@
 </div>
 
 <div class="bastille " >
-  <div>
-<strong>Oscietta Caviar</strong> 
-<p>With buckwheat blinis </p>
+  <div class="title"><strong class="heading">Oscietta Caviar</strong> 
+  <p class="subtitle">With buckwheat blinis </p>
 </div>
-<span>35€</span>
+<span class="price">35€</span>
+<div class="check">
+  <i class="material-icons">check_circle</i>
 </div>
+</div>
+
 <div class="bastille ">
-  <div>
-<strong>Lobster and Leek Foam</strong>
-<p>Marinated with orange zest</p>
+  <div class="title"><strong class="heading">Lobster and Leek Foam</strong>
+  <p class="subtitle">Marinated with orange zest</p>
 </div>
-<span>20€</span>
+<span class="price">20€</span>
+<div class="check">
+  <i class="material-icons">check_circle</i>
 </div>
+</div>
+
 <h4><span class="underline">MAIN</span>DISH</h4>
-<div class="bastille three">
-<div>
-<strong>Duck Foie Gras</strong>
-<p>with fig jam and grilled baguette</p>
+<div class="bastille ">
+  <div class="title"><strong class="heading">Duck Foie Gras</strong>
+   <p class="subtitle">with fig jam and grilled baguette</p>
 </div>
-<span>35€</span>
-  </div>
-  <div class="bastille four">
-    <div>
-<strong>Fresh Buttered Scallops</strong>
-<p>woth white celery puree</p>
+<span class="price">35€</span>
+<div class="check">
+  <i class="material-icons">check_circle</i>
 </div>
-<span>40€</span>
+  </div>
+
+  <div class="bastille ">
+    <div class="title"><strong class="heading">Fresh Buttered Scallops</strong>
+              <p class="subtitle">woth white celery puree</p>
 </div>
-<div class="bastille five ">
-  <div>
-<strong>Pan-Fried Lobster</strong>
-<p>with smashhed sweet potatoes</p>
-  </div>
-<span>35€</span>
+<span class="price">40€</span>
+<div class="check">
+  <i class="material-icons">check_circle</i>
 </div>
-<div class="bastille six">
-    <div>
-  <strong>Braised Ox Tail</strong>
-  <p>with wild rice and lemon zest</p>
+</div>
+
+<div class="bastille">
+  <div class="title"><strong class="heading">Pan-Fried Lobster</strong>
+    <p class="subtitle">with smashhed sweet potatoes</p>
   </div>
-  <span>44€</span>
+  <span class="price">35€</span>
+  <div class="check">
+    <i class="material-icons">check_circle</i>
   </div>
+</div>
+
+<div class="bastille ">
+  <div class="title"><strong class="heading">Braised Ox Tail</strong>
+    <p class="subtitle">with wild rice and lemon zest</p>
+  </div>
+  <span class="price">44€</span>
+  <div class="check">
+    <i class="material-icons">check_circle</i>
+  </div>
+  </div>
+
   <h4><span class="underline">DESS</span>ERT</h4>
-<div class="bastille seven">
-  <div>
-<strong>Chocolate and Hazelnut Macaroons</strong>
-<p>with caramel butter ice cream</p>
+<div class="bastille">
+  <div class="title"><strong class="heading">Chocolate and Hazelnut Macaroons</strong>
+    <p class="subtitle">with caramel butter ice cream</p>
 </div>
-<span>18€</span>
+<span class="price">18€</span>
+<div class="check">
+  <i class="material-icons">check_circle</i>
 </div>
-<div class="bastille eight">
-  <div>
-<strong>Baba au rhum</strong>
-<p>with lemon drizzle</p>
 </div>
-<span>22€</span>
+
+<div class="bastille ">
+  <div class="title"><strong class="heading">Baba au rhum</strong>
+    <p class="subtitle">with lemon drizzle</p>
 </div>
-<div class="bastille nine">
-  <div>
-<strong>Lemon Meringue Pie</strong>
-<p>Destructured</p>
+<span class="price">22€</span>
+<div class="check">
+  <i class="material-icons">check_circle</i>
 </div>
-<span>23€</span>
- </div>   
+</div>
+
+<div class="bastille ">
+  <div class="title"><strong class="heading">Lemon Meringue Pie</strong>
+  <p class="subtitle">Destructured</p>
+</div>
+<span class="price">23€</span>
+<div class="check">
+  <i class="material-icons">check_circle</i>
+</div>
+ </div>  
+
+</section>
  <div class="order">
  <button>Order</button>
  </div>

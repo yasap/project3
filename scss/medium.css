@@ -1,4 +1,5 @@
-body {
+@media only screen and (min-width: 678px) and (max-width: 1199px) {
+  body {
     background-color: white;
     text-align: center;
     padding: 0;
@@ -7,12 +8,12 @@ body {
   }
   .logo-large {
     width: 60%;
-    padding: 1em;
   }
   .section1 {
     background: #f0f0f0;
     margin: 0 auto;
     padding: 2em;
+    font-weight: bold;
   }
   .circle_number {
     background-color: rgb(204, 82, 204);
@@ -82,6 +83,12 @@ body {
     background-color: rgb(235, 230, 230);
     padding: 2em 1em;
   }
+  .section3 .bastille{
+    display: flex;
+    flex-direction: row;
+    max-width: 1190px;
+    flex-wrap: wrap;
+  }
   .button2 i {
     color: black;
   }
@@ -126,7 +133,6 @@ background-color: white;
    align-items: center;
    width: calc(100% - 2em);
    padding: 1em;
-   /* height: 100px; */
    text-align: left;
 
  }
@@ -138,7 +144,6 @@ background-color: white;
   justify-content: space-between;
   align-items: flex-end;
   height: 300px;
-  /* padding: 2px; */
   width: calc(100% - 4px);
   background-repeat: no-repeat;
   margin-top: 2em;
@@ -355,3 +360,4 @@ margin: 10px;
   background-size: cover;
   background-image: url("../image/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
  }
+}

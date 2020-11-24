@@ -1,10 +1,10 @@
 @media only screen and (min-width: 1200px) {
-body {
+  body {
     background-color: white;
     text-align: center;
     padding: 0;
     margin: 0;
-    
+    /* width: 100%; */
   }
   .logo-large {
     width: 60%;
@@ -83,6 +83,14 @@ body {
     background-color: rgb(235, 230, 230);
     padding: 2em 1em;
   }
+  .section3 .bastille {
+    display: flex;
+    flex-direction: row;
+  }
+  .section3 .r1name{
+    margin: 2em auto;
+    cursor: pointer;
+  }
   .button2 i {
     color: black;
   }
@@ -125,7 +133,7 @@ background-color: white;
    border-bottom-right-radius: 15px;
    justify-content: space-between;
    align-items: center;
-   width: 40%;
+   width: calc(100% - 2em);
    padding: 1em;
    /* height: 100px; */
    text-align: left;
