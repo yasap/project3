@@ -1,4 +1,4 @@
-@media only screen and (max-width: 677px) {
+@media only screen and (max-width: 799px) {
   body {
     background-color: white;
     text-align: center;
@@ -93,6 +93,7 @@
     border-radius: 1em;
     padding: 1em;
     margin-top: 2em;
+    margin-left: 1.5em;
     width: calc(100% - 4em);
     display: flex;
     flex-direction: row;
@@ -126,7 +127,6 @@
     align-items: center;
     width: calc(100% - 2em);
     padding: 1em;
-    /* height: 100px; */
     text-align: left;
   }
   .same {
@@ -137,10 +137,15 @@
     justify-content: space-between;
     align-items: flex-end;
     height: 300px;
-    /* padding: 2px; */
     width: calc(100% - 4px);
     background-repeat: no-repeat;
     margin-top: 2em;
+  }
+  .r1name a:link,
+  .r1name a:visited,
+  .r1name a:hover {
+    color: black;
+    text-decoration: none;
   }
   .new_label {
     background-color: rgb(128, 233, 175);
@@ -211,6 +216,9 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+  }
+  a {
+    color: black;
   }
   .underline {
     padding-bottom: 5px;
