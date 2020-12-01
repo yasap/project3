@@ -40,7 +40,7 @@
     /* adds background image */
     background-size: cover; /* covers the image to the whole container */
     background-repeat: no-repeat;
-    width: calc(45% - 1em);
+    width: calc(40% - 1em);
     height: 300px;
     border-radius: 15px;
     display: flex;
