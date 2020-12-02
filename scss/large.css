@@ -6,8 +6,7 @@
     margin: 0;
   }
   .logo-large {
-    width: 60%;
-    padding: 1em;
+    width: 40%;
     text-align: center;
   }
   .section1 {
@@ -363,8 +362,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    margin: 25px;
+    justify-content: center;
   }
 
   .background-image2 {
