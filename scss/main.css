@@ -141,6 +141,14 @@
     font-size: 15px;
     align-self: center;
   }
+  .button1:active,
+  .button1:link,
+  .button1:visited,
+  .button1:hover {
+    text-decoration: none;
+    color: white;
+  }
+
   .section2 {
     background-color: white;
     padding: 2em 1.5em;

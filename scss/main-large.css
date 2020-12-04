@@ -31,6 +31,7 @@
     width: 15px;
     padding: 0.5em;
     color: white;
+    text-align: center;
     margin-left: -2em;
     margin-right: 2em;
     font-weight: bold;
@@ -142,11 +143,19 @@
     color: white;
     border-width: 0;
     text-align: center;
-    margin: 5em auto;
+    margin-top: 15em;
     /* width: 50%; */
     font-size: 15px;
     align-self: center;
   }
+  .button1:active,
+  .button1:link,
+  .button1:visited,
+  .button1:hover {
+    text-decoration: none;
+    color: white;
+  }
+
   .section2 {
     background-color: white;
     padding: 2em 1.5em;
