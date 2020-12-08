@@ -75,10 +75,10 @@
     margin-bottom: 5em;
     font-size: 15px;
   }
-  .button1 :active,
-  .button1 :link,
-  .button1 :visited,
-  .button1 :hover {
+  .button1:active,
+  .button1:link,
+  .button1:visited,
+  .button1:hover {
     text-decoration: none;
     color: white;
   }
@@ -95,6 +95,7 @@
   }
   .button2:hover {
     background-color: rgb(205, 186, 214);
+    text-decoration: none;
   }
   .button2 {
     background-color: whitesmoke;
