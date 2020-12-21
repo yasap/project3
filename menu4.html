@@ -3,91 +3,143 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>oohmyfood</title>
+    <link href="scss/main.css" rel="stylesheet" />
+    <link href="scss/large.css" rel="stylesheet" />
+    <link href="scss/medium.css" rel="stylesheet" />
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
     <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
-    <link href="scss/main.css " rel="stylesheet" />
-    <link href="scss/large.css" rel="stylesheet" />
-    <link href="scss/medium.css" rel="stylesheet" />
+    <title>oohmyfood</title>
   </head>
-  <body>
+
+  <body id="hello">
     <header>
-      <img class="logo-large" src="image/ohmyfood.png" alt="ohmy food logo" />
-      <div class="location">
-        <i class="material-icons">location_on</i>Paris, Belleville
+      <div class="titolo">
+        <a href="index.html">
+          <i class="material-icons">keyboard_backspace</i>
+        </a>
+        <img class="logo-large" src="image/ohmyfood.png" alt="ohmy food logo" />
       </div>
     </header>
-    <section class="section1">
-      <h1 class="book_menu">Book the menu you like</h1>
-      <p>Discover top-of-the-art restaurants we picked for you</p>
-      <div class="button1">
-        <a href="#restaurants">Explore our restaurants</a>
+    <div class="background-image3"></div>
+    <div class="part1">
+      <div class="restaurant_title">
+        <h1>Le Gourmand</h1>
+        <i class="material-icons favorite">favorite</i>
       </div>
-    </section>
-    <section class="section2">
-      <h2>How it works</h2>
+      <h4><span class="underline">ENTR</span>EES</h4>
 
-      <div class="button2">
-        <span class="circle_number">1</span>
-        <i class="material-icons">phone_iphone</i> Choose a restaurant
-      </div>
-      <div class="button2">
-        <span class="circle_number">2</span>
-        <i class="material-icons">format_list_bulleted</i> Choose your menu
-      </div>
-      <div class="button2">
-        <span class="circle_number">3</span>
-        <i class="material-icons">storefront</i> Go enjoy iy at the restaurant
-      </div>
-    </section>
-    <section id="restaurants" class="section3">
-      <h2>Restaurants</h2>
-      <div class="card-container">
-        <div class="resto1 same">
-          <div class="r1name">
-            <div>
-              <a href="menu3.html"> <h3>The Full Palette</h3></a>
-              <p>New York</p>
-            </div>
-            <i class="material-icons favorite">favorite</i>
+      <section>
+        <div class="bastille">
+          <div class="title">
+            <strong class="heading">Tuna Carpaccio</strong>
+            <p class="subtitle">seasoned with yuzu</p>
           </div>
-          <span class="new_label">NEW</span>
+          <span class="price">25€</span>
+          <div class="check">
+            <i class="material-icons">check_circle</i>
+          </div>
         </div>
 
-        <div class="resto2 same">
-          <div class="r1name">
-            <div>
-              <a href="menu4.html"> <h3>Le Gourmand</h3> </a>
-              <p>New York</p>
-            </div>
-            <i class="material-icons favorite">favorite</i>
+        <div class="bastille">
+          <div class="title">
+            <strong class="heading">Crunchy Lobster Croquets</strong>
+            <p class="subtitle">with seasonal vegetables</p>
           </div>
-          <span class="new_label">NEW</span>
+          <span class="price">35€</span>
+          <div class="check">
+            <i class="material-icons">check_circle</i>
+          </div>
         </div>
 
-        <div class="resto3 same">
-          <div class="r1name">
-            <div>
-              <a href="menu2.html"> <h3>The Enchandet Plate</h3></a>
-              <p>New York</p>
-            </div>
-            <i class="material-icons favorite">favorite</i>
+        <div class="bastille">
+          <div class="title">
+            <strong class="heading">Mushroom soup</strong>
+            <p class="subtitle">with truffles</p>
+          </div>
+          <span class="price">20€</span>
+          <div class="check">
+            <i class="material-icons">check_circle</i>
           </div>
         </div>
-        <div class="resto4 same">
-          <div class="r1name">
-            <div>
-              <a href="menu1.html"><h3>Bastille</h3></a>
-              <p>New York</p>
-            </div>
-            <i class="material-icons favorite">favorite</i>
+
+        <h4><span class="underline">MAIN</span>DISH</h4>
+
+        <div class="bastille">
+          <div class="title">
+            <strong class="heading">Roast Chicken with Provincal Herbs</strong>
+            <p class="subtitle">with truffle cream</p>
+          </div>
+          <span class="price">40€</span>
+          <div class="check">
+            <i class="material-icons">check_circle</i>
           </div>
         </div>
+
+        <div class="bastille">
+          <div class="title">
+            <strong class="heading">Roasted Lobster</strong>
+            <p class="subtitle">with seasonal vegetables</p>
+          </div>
+          <span class="price">35€</span>
+          <div class="check">
+            <i class="material-icons">check_circle</i>
+          </div>
+        </div>
+
+        <div class="bastille">
+          <div class="title">
+            <strong class="heading">Angust Beef Ribs</strong>
+            <p class="subtitle">with mashed parshnips</p>
+          </div>
+          <span class="price">44€</span>
+          <div class="check">
+            <i class="material-icons">check_circle</i>
+          </div>
+        </div>
+
+        <h4><span class="underline">DESS</span>ERT</h4>
+
+        <div class="bastille">
+          <div class="title">
+            <strong class="heading">Assorted Dessert Plate</strong>
+            <p class="subtitle">Chef's choice</p>
+          </div>
+          <span class="price">18€</span>
+          <div class="check">
+            <i class="material-icons">check_circle</i>
+          </div>
+        </div>
+
+        <div class="bastille">
+          <div class="title">
+            <strong class="heading">Cream brulee</strong>
+            <p class="subtitle">Revisited</p>
+          </div>
+          <span class="price">22€</span>
+          <div class="check">
+            <i class="material-icons">check_circle</i>
+          </div>
+        </div>
+
+        <div class="bastille">
+          <div class="title">
+            <strong class="heading">Tiramisu</strong>
+            <p class="subtitle">with hazelnuts</p>
+          </div>
+          <span class="price">23€</span>
+          <div class="check">
+            <i class="material-icons">check_circle</i>
+          </div>
+        </div>
+      </section>
+
+      <div class="order">
+        <button>Order</button>
       </div>
-    </section>
+    </div>
     <footer>
       <svg
         width="196"

@@ -69,15 +69,24 @@
     padding: 1em;
     color: white;
     text-align: center;
-    margin-bottom: 5em;
+    margin: 2em auto;
     font-size: 15px;
+    width: 50%;
   }
-  .button1:active,
-  .button1:link,
-  .button1:visited,
-  .button1:hover {
+  .button1 a:active,
+  .button1 a:link,
+  .button1 a:visited,
+  .button1 a:hover {
     text-decoration: none;
     color: white;
+  }
+  .button1:hover {
+    box-shadow: 0 4px 8px 0 rgba(5, 3, 3, 0.4), 0 6px 20px 0 rgba(3, 3, 3, 0.4);
+    background-image: linear-gradient(
+      to bottom right,
+      rgb(219, 139, 219),
+      rgb(167, 48, 167)
+    );
   }
   .section2 {
     background-color: white;
