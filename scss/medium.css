@@ -393,6 +393,7 @@
     to {
       opacity: 0;
       display: none;
+      z-index: -9999999;
     }
   }
   .zero:hover {
