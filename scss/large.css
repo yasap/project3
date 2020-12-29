@@ -405,6 +405,14 @@
   .order {
     text-align: center;
   }
+  .order:hover button {
+    box-shadow: 0 4px 8px 0 rgba(5, 3, 3, 0.4), 0 6px 20px 0 rgba(3, 3, 3, 0.4);
+    background-image: linear-gradient(
+      to bottom,
+      rgb(216, 147, 216),
+      rgb(168, 31, 168)
+    );
+  }
   .order button {
     background-image: linear-gradient(to bottom, rgb(214, 130, 214), purple);
     text-align: center;

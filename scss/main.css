@@ -284,6 +284,8 @@
     align-items: flex-end;
     margin-bottom: 15px;
     animation: fadeIn 1s linear;
+    height: 100px;
+    padding-top: 0.5em;
   }
   .bastille .check {
     background-color: rgb(17, 233, 215);
@@ -294,7 +296,7 @@
     border-top-right-radius: 15px;
     color: white;
     width: 20%;
-    height: calc(100% + 2em);
+    height: calc(100px + 2em);
     cursor: pointer;
   }
   .bastille:hover .check {
@@ -302,7 +304,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
+    height: calc(100px + 0.5em);
   }
   .bastille:hover .check i {
     animation: spin 0.5s linear;
